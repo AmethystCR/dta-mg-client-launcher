@@ -19,9 +19,13 @@
     <ComVisible>false</ComVisible>
     <CLSCompliant>false</CLSCompliant>
     <Platform>AnyCPU</Platform>
+	<ApplicationIcon>mainclienticon.ico</ApplicationIcon>
     <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <ItemGroup>
+    <Content Include="mainclienticon.ico" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435">
       <PrivateAssets>all</PrivateAssets>
